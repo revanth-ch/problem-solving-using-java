@@ -6,7 +6,7 @@ interface LastDigitSum {
     int add(int a, int b);
 }
 
-public class task9 {
+public class program9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
