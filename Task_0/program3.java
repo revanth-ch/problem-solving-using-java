@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_3 {
+public class program3 {
 
     // Function with return value
     int add(int a, int b) {
@@ -11,7 +11,7 @@ public class Task1_3 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_3 obj = new Task1_3();
+        program3 obj = new program3();
 
         // Calling function and storing returned value
         int result = obj.add(15, 25);

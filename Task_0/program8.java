@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_8 {
+public class program8 {
 
     // Function to reverse a number
     int reverse(int number) {
@@ -22,7 +22,7 @@ public class Task1_8 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_8 obj = new Task1_8();
+        program8 obj = new program8();
 
         // Calling function
         int result = obj.reverse(1234);

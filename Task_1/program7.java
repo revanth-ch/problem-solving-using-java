@@ -1,4 +1,4 @@
-package Task_8;
+package Task_1;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ interface Fibonacci {
     int find(int n);
 }
 
-public class task8 {
+public class program7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

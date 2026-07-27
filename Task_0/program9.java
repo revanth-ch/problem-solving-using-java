@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_9 {
+public class program9 {
 
     // Function to check prime number
     boolean isPrime(int number) {
@@ -24,7 +24,7 @@ public class Task1_9 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_9 obj = new Task1_9();
+        program9 obj = new program9();
 
         // Calling function
         boolean result = obj.isPrime(13);

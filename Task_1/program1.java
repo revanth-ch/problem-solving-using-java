@@ -1,8 +1,8 @@
-package Task_2;
+package Task_1;
 
 import java.util.Scanner;
 
-public class task2 {
+public class program1 {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_5 {
+public class program5 {
 
     // Function to check even or odd
     void checkEvenOdd(int number) {
@@ -18,7 +18,7 @@ public class Task1_5 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_5 obj = new Task1_5();
+        program5 obj = new program5();
 
         // Calling function
         obj.checkEvenOdd(7);

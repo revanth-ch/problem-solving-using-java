@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_7 {
+public class program7 {
 
     // Function to calculate factorial
     int findFactorial(int n) {
@@ -18,7 +18,7 @@ public class Task1_7 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_7 obj = new Task1_7();
+        program7 obj = new program7();
 
         // Calling function
         int result = obj.findFactorial(5);

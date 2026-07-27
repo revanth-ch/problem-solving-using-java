@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_4 {
+public class program4 {
 
     // Function to find square
     int findSquare(int number) {
@@ -11,7 +11,7 @@ public class Task1_4 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_4 obj = new Task1_4();
+        program4 obj = new program4();
 
         // Calling function
         int square = obj.findSquare(5);

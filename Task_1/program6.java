@@ -1,4 +1,4 @@
-package Task_7;
+package Task_1;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ interface DigitSum {
     int calculate(int n);
 }
 
-public class task7 {
+public class program6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

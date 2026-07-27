@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_6 {
+public class program6 {
 
     // Function to find largest number
     int findLargest(int a, int b) {
@@ -18,7 +18,7 @@ public class Task1_6 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_6 obj = new Task1_6();
+        program6 obj = new program6();
 
         // Calling function
         int largest = obj.findLargest(30, 45);

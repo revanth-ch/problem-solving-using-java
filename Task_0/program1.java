@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_1 {
+public class program1 {
 
     //declaring the function
     void displayMessage() {
@@ -10,7 +10,7 @@ public class Task1_1 {
     public static void main(String[] args) {
 
         // object creation
-        Task1_1 obj = new Task1_1();
+        program1 obj = new program1();
 
         // Function call
         obj.displayMessage();

@@ -1,9 +1,8 @@
-package Task_5;
+package Task_1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class task5 {
+public class program5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,15 +16,12 @@ public class task5 {
             arr[i] = sc.nextInt();
         }
 
-        System.out.print("Enter K: ");
-        int k = sc.nextInt();
+        System.out.println("Pairs:");
 
-        Arrays.sort(arr);
-
-        if (k > 0 && k <= n) {
-            System.out.println(k + "th Smallest = " + arr[k - 1]);
-        } else {
-            System.out.println("Invalid K");
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                System.out.println("(" + arr[i] + ", " + arr[j] + ")");
+            }
         }
 
         sc.close();

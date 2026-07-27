@@ -1,4 +1,4 @@
-package Task_10;
+package Task_1;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ interface LastDigitSum {
     int add(int a, int b);
 }
 
-public class task10 {
+public class task9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

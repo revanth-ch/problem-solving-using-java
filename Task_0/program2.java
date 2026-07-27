@@ -1,6 +1,6 @@
-package Task_1;
+package Task_0;
 
-public class Task1_2 {
+public class program2 {
 
     // Function with parameters
     void add(int a, int b) {
@@ -13,7 +13,7 @@ public class Task1_2 {
     public static void main(String[] args) {
 
         // Creating object
-        Task1_2 obj = new Task1_2();
+        program2 obj = new program2();
 
         // Passing arguments
         obj.add(10, 20);
