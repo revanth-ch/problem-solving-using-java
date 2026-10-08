@@ -1,0 +1,15 @@
+package Week_6;
+
+public class Task4 {
+
+    public boolean rotateString(
+            String s,
+            String goal) {
+
+        if (s.length() != goal.length()) {
+            return false;
+        }
+
+        return (s + s).contains(goal);
+    }
+}
