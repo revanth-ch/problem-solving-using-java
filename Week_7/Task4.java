@@ -1,0 +1,50 @@
+package Week_7;
+
+import java.util.*;
+
+public class Task4 {
+
+    private List<String> history;
+    private int current;
+
+    public Task4(String homepage) {
+
+        history = new ArrayList<>();
+
+        history.add(homepage);
+
+        current = 0;
+    }
+
+    public void visit(String url) {
+
+        // Remove forward history
+        while (history.size() > current + 1) {
+            history.remove(history.size() - 1);
+        }
+
+        history.add(url);
+
+        current++;
+    }
+
+    public String back(int steps) {
+
+        current = Math.max(
+            0,
+            current - steps
+        );
+
+        return history.get(current);
+    }
+
+    public String forward(int steps) {
+
+        current = Math.min(
+            history.size() - 1,
+            current + steps
+        );
+
+        return history.get(current);
+    }
+}
